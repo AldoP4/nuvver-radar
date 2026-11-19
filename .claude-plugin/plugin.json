@@ -1,0 +1,13 @@
+{
+  "name": "radar",
+  "version": "0.1.0",
+  "description": "Encuentra oportunidades de negocio que existen hoy, para tu perfil, y te dice cómo cobrarlas: fecha real, señales de 'por qué ahora', rúbrica dura y una prueba de 7 días antes de construir.",
+  "author": {
+    "name": "Aldo Pazzi",
+    "url": "https://github.com/AldoP4"
+  },
+  "homepage": "https://github.com/AldoP4/radar-oportunidades",
+  "repository": "https://github.com/AldoP4/radar-oportunidades",
+  "license": "MIT",
+  "keywords": ["oportunidades", "negocios", "validación", "micro-saas", "emprendimiento", "español", "latam", "research", "claude-code"]
+}

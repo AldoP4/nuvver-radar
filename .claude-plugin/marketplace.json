@@ -1,0 +1,24 @@
+{
+  "name": "radar-oportunidades",
+  "owner": {
+    "name": "Aldo Pazzi",
+    "url": "https://github.com/AldoP4"
+  },
+  "metadata": {
+    "description": "Marketplace del plugin radar: oportunidades de negocio de hoy, en español."
+  },
+  "plugins": [
+    {
+      "name": "radar",
+      "description": "Encuentra oportunidades de negocio que existen hoy, para tu perfil, y te dice cómo cobrarlas.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Aldo Pazzi",
+        "url": "https://github.com/AldoP4"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/AldoP4/radar-oportunidades"
+    }
+  ]
+}
