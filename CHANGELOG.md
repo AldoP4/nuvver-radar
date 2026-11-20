@@ -1,5 +1,10 @@
 # Cambios
 
+## 0.2.1 (2026-11-20)
+Correcciones de la primera corrida instalada desde GitHub:
+- Una fecha que ya pasó no cuenta como "por qué ahora" (máximo 2 en la rúbrica) y se revisa antes de entregar el top 3.
+- Las multas, plazos y obligaciones legales se citan con sus unidades exactas y desde fuente primaria; si no, van como "sin verificar" y no se usan para calcular costos.
+
 ## 0.2.0 (2026-11-20)
 Correcciones de la primera prueba en frío (perfil nuevo, sin contexto):
 - La rúbrica ya no cambia pesos por perfil: el máximo sigue en 75 y los ajustes desempatan.

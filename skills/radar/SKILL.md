@@ -60,6 +60,7 @@ Reglas:
 - Marca también **cómo lo supiste**: "leído en la fuente" (abriste la página) o "resumen del buscador". Los resúmenes del buscador se equivocan de fecha y de cifra. Toda cifra o fecha que sostenga el top 3 se confirma abriendo la página; si la página no abre (muchos marketplaces y redes bloquean la lectura automática), se escribe "sin verificar".
 - Busca las palabras reales del comprador, no las del vendedor: "no me alcanza el tiempo para contestar" pesa más que "automatización de atención al cliente".
 - **No todos los perfiles tienen un "por qué ahora" con fecha.** Para un oficio con demanda constante (diseño, contabilidad, edición), no fuerces una urgencia: basta con que ya paguen y que la persona llegue al comprador. Una razón débil inventada es peor que ninguna.
+- **Leyes y multas, exactas o nada.** Un monto de multa, un plazo o una obligación legal se copian con sus unidades exactas ("por trabajador", "por infracción", "por empresa") y solo desde la fuente primaria (diario oficial, portal del gobierno, la ley) o una página que abriste y que la cite textual. Si solo lo viste en un resumen o en una nota que no lo explica, escríbelo como "sin verificar" y no lo uses para calcular cuánto le cuesta al cliente.
 - Hay fuentes que el agente no puede consultar solo (la Biblioteca de Anuncios de Meta, grupos privados, perfiles de marketplaces). Si la persona está contestando, pídele que las revise y te pegue lo que vea; si no, anótalas en "Lo que no encontré".
 
 ## Paso 3: candidatos
@@ -78,6 +79,7 @@ Califica cada candidato con la rúbrica de `references/rubrica.md` (7 criterios 
 - **Pre-mortem:** "pasaron 60 días y no se vendió nada: ¿por qué?". Si la respuesta es obvia y no tiene arreglo, baja ese candidato.
 - Separa siempre **"hay demanda en general"** de **"le van a comprar a esta persona"**. Lo segundo depende de su llegada y su confianza, no del mercado.
 - **Para entrar al top 3 hace falta al menos 3 en "Ya pagan".** Una fecha cercana no compensa que nadie pague.
+- **Revisión de fechas antes de entregar:** compara cada "por qué ahora" del top 3 con la fecha de hoy de `ahora.py`. Si la fecha ya pasó, no es un "por qué ahora": quítala de esa columna y recalifica el criterio (máximo 2). Puedes mencionar el cambio como contexto ("desde octubre cuesta más"), pero no como urgencia.
 
 ## Paso 5: el top 3, a fondo
 
@@ -100,6 +102,8 @@ Para cada uno de los 3 mejores entrega:
 
 - **Nada inventado.** Cada cifra lleva su link. Lo que no encuentres se escribe como "no encontré dato" y no se rellena.
 - Los estimados y precios propuestos se marcan como tales.
+- Ninguna cifra legal (multas, plazos, obligaciones) sale sin fuente primaria o sin la etiqueta "sin verificar".
+- Ninguna fecha que ya pasó se presenta como "por qué ahora".
 - Nunca prometas ingresos. Habla de señales y de pruebas.
 - Si la evidencia es floja, dilo con todas sus letras. Un "no encontré oportunidad clara para tu perfil, y esto es lo que probaría" vale más que un top 3 inflado.
 - No recomiendes nada ilegal, que engañe al comprador o que dependa de saltarse las reglas de una plataforma.

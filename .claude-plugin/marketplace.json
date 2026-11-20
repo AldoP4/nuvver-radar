@@ -11,7 +11,7 @@
     {
       "name": "radar",
       "description": "Encuentra oportunidades de negocio que existen hoy, para tu perfil, y te dice cómo cobrarlas.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "Aldo Pazzi",
         "url": "https://github.com/AldoP4"

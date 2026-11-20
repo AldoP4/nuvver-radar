@@ -23,6 +23,8 @@ Hay una quinta que no descarta pero pone bandera roja: **pide más confianza de 
 | **Velocidad a primer cobro** | ×2 | Meses | Semanas | Días: se puede vender antes de construir |
 | **Confianza requerida** (al revés: menos es mejor) | ×1 | Necesita marca, historial y contrato | Necesita demo y factura | Se compra en un clic o con una garantía |
 
+Una fecha que **ya pasó** (compárala con `ahora.py`) vale como máximo 2 en "Por qué ahora": el cambio ya ocurrió y quien iba a moverse ya se movió.
+
 **Máximo: 75 puntos** (15 × 5). Como guía:
 - **60 o más:** vale la prueba de 7 días ya.
 - **45 a 59:** prometedora; falta una pieza (normalmente llegada o evidencia de pago).
