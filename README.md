@@ -44,13 +44,13 @@ Le pides ideas de negocio a una IA y te pasan tres cosas:
 1. **Reloj.** Ancla la fecha real con la computadora y calcula cuánto falta para cada fecha límite. Nada de "recientemente" inventado.
 2. **Tu perfil.** Qué sabes hacer, cuánto tiempo y dinero tienes, qué no quieres hacer y cuánto quieres ganar. La misma idea es buena para uno y mala para otro.
 3. **Señales de "por qué ahora"** en 7 tipos: leyes con fecha, cambios de plataformas, capacidades nuevas de IA, quejas que se repiten, dinero que ya se gasta, temporadas y huecos que se abren. En tu idioma y tu país.
-4. **12 a 20 candidatos**, escritos como *"Para [comprador] que [dolor] porque [por qué ahora]: [lo que entregas]"*.
+4. **8 a 15 candidatos**, escritos como *"Para [comprador] que [dolor] porque [por qué ahora]: [lo que entregas]"*.
 5. **Un filtro duro.** Una rúbrica de 7 criterios con pesos, donde lo que más cuenta es **"¿alguien ya paga por esto?"** y **"¿puedes llegar al comprador en 7 días?"**, más reglas de descarte, abogado del diablo y pre-mortem.
 6. **El top 3, a fondo:** comprador y dónde está, competencia y precios, escalera de precio, qué confianza necesita el cliente, cómo llegar a él y una **prueba de 7 días** para vender antes de construir.
 
 Te deja un reporte `radar-AAAA-MM-DD.md` y, en el chat, **la única acción que debes hacer hoy.**
 
-👉 Mira un [reporte real de ejemplo](ejemplos/radar-2026-11-18-mexico.md) (México, 18 nov 2026).
+👉 Reportes reales de ejemplo: [dev en México](ejemplos/radar-2026-11-18-mexico.md) · [diseñadora freelance en Argentina](ejemplos/radar-2026-11-20-argentina-diseno.md).
 
 ## Otros usos
 

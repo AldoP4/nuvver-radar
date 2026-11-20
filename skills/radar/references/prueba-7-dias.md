@@ -33,5 +33,11 @@ Anota cada conversación: quién, qué dijo con sus palabras, si apartó o no.
 ## Variante sin conversaciones (para productos de autoservicio)
 Página + precio + botón de pago o de "apartar", y se manda tráfico gratis: publicaciones en grupos, un video, una respuesta útil donde la gente pregunta. Lo que se mide: **visitas → clics en el botón → pagos o correos**. Con menos de 100 visitas todavía no se sabe nada; consigue más tráfico antes de juzgar.
 
+## Variante para marketplaces (Workana, Upwork, Fiverr, Malt)
+Cuando el comprador está pidiendo el trabajo en una plataforma, la prueba son propuestas, no conversaciones:
+1. Día 1: perfil con 3 muestras del trabajo exacto que se ofrece y el precio claro.
+2. Días 2 a 5: **20 propuestas** personalizadas a pedidos de la última semana (que citen algo concreto del pedido).
+3. Decisión: **3 respuestas y 1 contratación** = sigue; respuestas pero sin contratación = ajusta precio o muestras; menos de 2 respuestas = cambia de plataforma o de oferta.
+
 ## La prueba también es contenido
 Contar la prueba en público ("estoy probando esta idea con 15 dueños de negocio; esto me dijeron") genera audiencia aunque la idea falle, y atrae a la gente que tiene ese problema.

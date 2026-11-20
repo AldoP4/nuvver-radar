@@ -18,7 +18,7 @@ Hay una quinta que no descarta pero pone bandera roja: **pide más confianza de 
 | **Ya pagan** | ×3 | No encontré a nadie cobrando | Hay competidores pero sin precios ni ingresos visibles | Precios públicos o ingresos verificados de varios competidores |
 | **Llegada** | ×3 | No sé dónde está el comprador | Sé dónde está, pero llegar cuesta mucho (frío, anuncios) | Lo puedo encontrar y escribirle hoy (grupo, directorio, contacto, búsqueda) |
 | **Dolor** | ×2 | Molestia ocasional | Le quita horas cada semana | Le cuesta dinero, clientes o una multa, y lo dice con sus palabras |
-| **Por qué ahora** | ×2 | Nada cambió | Hay una tendencia sin fecha | Hay una fecha concreta en los próximos 3 meses |
+| **Por qué ahora** | ×2 | La demanda está bajando o nada la sostiene | Demanda constante, o una tendencia sin fecha | Hay una fecha concreta en los próximos 3 meses |
 | **Ajuste** | ×2 | La persona no sabe hacerlo | Puede aprenderlo en unas semanas | Ya lo ha hecho o es su fuerte |
 | **Velocidad a primer cobro** | ×2 | Meses | Semanas | Días: se puede vender antes de construir |
 | **Confianza requerida** (al revés: menos es mejor) | ×1 | Necesita marca, historial y contrato | Necesita demo y factura | Se compra en un clic o con una garantía |
@@ -30,8 +30,12 @@ Hay una quinta que no descarta pero pone bandera roja: **pide más confianza de 
 
 Escribe la tabla con la calificación de cada criterio y **una línea de evidencia** por calificación alta. Un 5 sin link no vale 5.
 
+**Para entrar al top 3:** al menos 3 en "Ya pagan", además de no tener descarte. Si quedan menos de 3 candidatos que cumplan, el top tiene menos de 3 y se dice por qué.
+
 ## Ajustes por perfil
 
-- **Con menos de 3 meses de colchón:** suma la velocidad dos veces (peso ×4) y prefiere servicios.
-- **Si la persona no quiere salir de casa ni hacer llamadas:** la llegada solo puede salir de canales digitales; baja a 1 todo lo que dependa de visitas.
-- **Sin dinero para invertir:** baja a 1 la llegada que dependa de anuncios pagados.
+Los pesos no cambian nunca, para que el máximo siga siendo 75 y los cortes sirvan. Los ajustes cambian cómo se califica y cómo se desempata:
+
+- **Con menos de 3 meses de colchón:** en empate gana el de más velocidad, y en la duda se elige el servicio sobre el producto.
+- **Restricciones de la persona** (no visitar, no hacer llamadas, no salir en cámara, no atender clientes): todo canal de llegada que dependa de algo que la persona excluyó vale 1 en "Llegada". Si la única forma de llegar al comprador es esa, el candidato cae por la regla de descarte 2.
+- **Sin dinero para invertir:** vale 1 en "Llegada" todo lo que dependa de anuncios pagados.

@@ -8,6 +8,7 @@ Uso:
     python ahora.py                      # hoy, semana, cierres de mes, trimestre y año
     python ahora.py --hasta 2027-01-01   # días que faltan para una o varias fechas
     python ahora.py --json               # lo mismo, en JSON
+    python ahora.py --utc -3             # con la zona horaria de la persona (aquí, Argentina)
 
 Solo usa la biblioteca estándar de Python 3.8+.
 """
@@ -16,7 +17,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
@@ -65,13 +66,18 @@ def main() -> int:
     p.add_argument("--hasta", nargs="*", default=[], metavar="AAAA-MM-DD",
                    help="fechas para calcular cuánto falta")
     p.add_argument("--json", action="store_true", help="salida en JSON")
+    p.add_argument("--utc", type=float, default=None, metavar="HORAS",
+                   help="diferencia con UTC de la persona (ej. -3 para Argentina); por defecto, la de esta computadora")
     a = p.parse_args()
     try:  # consolas de Windows que no usan UTF-8
         sys.stdout.reconfigure(encoding="utf-8")
     except (AttributeError, ValueError):
         pass
 
-    ahora = datetime.now().astimezone()
+    if a.utc is not None:
+        ahora = datetime.now(timezone(timedelta(hours=a.utc)))
+    else:
+        ahora = datetime.now().astimezone()
     hoy = ahora.date()
     iso = hoy.isocalendar()
     datos = {

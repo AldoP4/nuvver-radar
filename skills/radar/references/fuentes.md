@@ -32,7 +32,7 @@ Plantillas de búsqueda. Cambia `[país]`, `[nicho]`, `[año]` y `[mes]` por los
 - `site:trustmrr.com [tema]` (ingresos verificados con Stripe)
 - `site:indiehackers.com [tema] revenue` y anuncios en `acquire.com`
 - `[tipo de servicio] cuánto cobra [país]`, y perfiles de freelancers que ya venden eso
-- Anuncios activos: la Biblioteca de Anuncios de Meta muestra quién paga por anunciar algo. Si alguien paga anuncios hace meses, le funciona.
+- Anuncios activos: la Biblioteca de Anuncios de Meta muestra quién paga por anunciar algo. Si alguien paga anuncios hace meses, le funciona. El agente no la puede consultar solo: pídele a la persona que la revise.
 
 ## 6. Calendario
 - `temporada [nicho] [país] [mes]`, cierres fiscales, regreso a clases, Buen Fin, Hot Sale, fin de año, eventos deportivos.

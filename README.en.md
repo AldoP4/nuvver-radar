@@ -24,11 +24,11 @@ Then type `/radar` (or `/radar:radar` as a plugin), or just ask Claude *"what ca
 1. **Clock.** Anchors the real date from your machine and counts the days to every deadline, so the model stops assuming it lives in its training year.
 2. **Your profile.** Skills, time, money, what you won't do, and your income goal.
 3. **"Why now" signals** of 7 kinds: dated regulation, platform changes, new AI capabilities, recurring complaints, money already being spent, seasons, and gaps that open up.
-4. **12–20 candidates**, each written as *"For [buyer] who [pain] because [why now]: [what you deliver]"*.
+4. **8–15 candidates**, each written as *"For [buyer] who [pain] because [why now]: [what you deliver]"*.
 5. **A hard filter.** A weighted 7-criteria rubric where **"does anyone already pay for this?"** and **"can you reach the buyer in 7 days?"** weigh the most, plus kill rules, devil's advocate and a pre-mortem.
 6. **The top 3, in depth:** buyer and where they are, competitors and prices, price ladder, the trust the buyer needs, how to reach them, and a **7-day test** to sell before you build.
 
-You get a `radar-YYYY-MM-DD.md` report and **the one action to take today**. See a [real example report](ejemplos/radar-2026-11-18-mexico.md) (Mexico, Nov 18, 2026; in Spanish).
+You get a `radar-YYYY-MM-DD.md` report and **the one action to take today**. Real example reports (in Spanish): [developer in Mexico](ejemplos/radar-2026-11-18-mexico.md) · [freelance designer in Argentina](ejemplos/radar-2026-11-20-argentina-diseno.md).
 
 ## Built on
 

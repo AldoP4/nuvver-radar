@@ -25,7 +25,7 @@ Habla en el idioma de la persona. Sé directo: primero la respuesta, después el
 
 No sabes qué día es: tu idea del "hoy" viene de tus datos de entrenamiento y puede estar meses o años atrasada.
 
-1. Corre el script `scripts/ahora.py` de la carpeta de esta skill (`python3 scripts/ahora.py`, o `python` en Windows). Si no hay Python, usa `date`.
+1. Corre el script `scripts/ahora.py` de la carpeta de esta skill (`python3 scripts/ahora.py`, o `python` en Windows). Si no hay Python, usa `date`. El script usa la zona horaria de la computadora; si la persona vive en otro país, pásale su diferencia con UTC (`--utc -3` para Argentina, por ejemplo).
 2. Desde ahí, todo lo "reciente" se mide en días contra esa fecha. La ventana normal de señales es de **90 días**; los hechos de fondo (una ley, el precio de un competidor) pueden tener hasta 12 meses si sigues comprobando que están vigentes.
 3. Cada vez que encuentres una fecha límite (una ley que entra en vigor, un cambio de precios), calcula cuánto falta con `python3 scripts/ahora.py --hasta AAAA-MM-DD`. Una fecha que ya pasó no es "por qué ahora": es el pasado.
 4. Escribe la fecha de hoy al inicio del reporte.
@@ -39,7 +39,7 @@ La misma oportunidad es buena para uno y mala para otro. Antes de buscar, junta 
 - **Restricciones:** lo que no quiere o no puede hacer (salir a visitar, salir en cámara, hacer llamadas, atender clientes).
 - **Meta:** cuánto quiere ganar al mes y en cuánto tiempo.
 
-Si no contesta, supón lo razonable, dilo en una línea y sigue. Con poco tiempo de colchón, pesa más lo que cobra rápido (servicio) que lo que tarda en dar dinero (audiencia, producto).
+Si no contesta, usa estos supuestos y dilos en el reporte: **colchón corto** (menos de 3 meses), **meta = el primer cobro en 30 días**, y las herramientas normales de su oficio. Con poco colchón, pesa más lo que cobra rápido (servicio) que lo que tarda en dar dinero (audiencia, producto).
 
 ## Paso 2: barrido de señales "por qué ahora"
 
@@ -57,11 +57,14 @@ Los 7 tipos de señal:
 Reglas:
 - Haz **al menos 12 búsquedas**, en tandas en paralelo. Si una tanda sale floja, cambia las palabras, no la conclusión.
 - Anota cada señal con: qué dice, link, fecha y **tipo de fuente** (primaria: gobierno, documentación oficial, datos verificados · medio de noticias · proveedor que vende la solución · opinión personal). Las fuentes de proveedores exageran: nunca bastan solas.
+- Marca también **cómo lo supiste**: "leído en la fuente" (abriste la página) o "resumen del buscador". Los resúmenes del buscador se equivocan de fecha y de cifra. Toda cifra o fecha que sostenga el top 3 se confirma abriendo la página; si la página no abre (muchos marketplaces y redes bloquean la lectura automática), se escribe "sin verificar".
 - Busca las palabras reales del comprador, no las del vendedor: "no me alcanza el tiempo para contestar" pesa más que "automatización de atención al cliente".
+- **No todos los perfiles tienen un "por qué ahora" con fecha.** Para un oficio con demanda constante (diseño, contabilidad, edición), no fuerces una urgencia: basta con que ya paguen y que la persona llegue al comprador. Una razón débil inventada es peor que ninguna.
+- Hay fuentes que el agente no puede consultar solo (la Biblioteca de Anuncios de Meta, grupos privados, perfiles de marketplaces). Si la persona está contestando, pídele que las revise y te pegue lo que vea; si no, anótalas en "Lo que no encontré".
 
 ## Paso 3: candidatos
 
-Escribe de **12 a 20 candidatos** con esta forma, sin adornos:
+Escribe de **8 a 15 candidatos** con esta forma, sin adornos (menos si el perfil es muy acotado: no rellenes la lista):
 
 > Para **[comprador concreto]** que **[dolor, con sus palabras]**, porque **[por qué ahora, con fecha si la hay]**: **[lo que entregas]**.
 
@@ -74,13 +77,14 @@ Califica cada candidato con la rúbrica de `references/rubrica.md` (7 criterios 
 - **Abogado del diablo:** para los 5 de arriba, escribe en una línea la razón más fuerte por la que fracasaría.
 - **Pre-mortem:** "pasaron 60 días y no se vendió nada: ¿por qué?". Si la respuesta es obvia y no tiene arreglo, baja ese candidato.
 - Separa siempre **"hay demanda en general"** de **"le van a comprar a esta persona"**. Lo segundo depende de su llegada y su confianza, no del mercado.
+- **Para entrar al top 3 hace falta al menos 3 en "Ya pagan".** Una fecha cercana no compensa que nadie pague.
 
 ## Paso 5: el top 3, a fondo
 
 Para cada uno de los 3 mejores entrega:
 
-1. **El comprador:** quién es, en qué lugar se junta (grupos, búsquedas, directorios, eventos) y una **frase real suya** con link.
-2. **La competencia:** quién ya lo hace, cuánto cobra (con fuente) y el hueco que deja.
+1. **El comprador:** quién es, en qué lugar se junta (grupos, búsquedas, directorios, eventos) y una **frase real suya** con link. Si solo la ves en el título que trae el buscador y no puedes abrir la página, úsala marcada como "sin verificar". Si no hay ninguna, dilo: conseguirla es la primera tarea de la prueba.
+2. **La competencia:** quién ya lo hace, cuánto cobra (con fuente) y el hueco que deja. Si la fuente de precios principal no abre, usa los precios públicos de perfiles en marketplaces o de páginas de competidores; si tampoco hay, escribe "sin dato de precio".
 3. **Precio y escalera:** gratis (anzuelo) → algo barato (primer sí) → lo caro (servicio o plan). Los precios propuestos se marcan como propuesta, no como dato.
 4. **Confianza:** qué necesita ese comprador para pagarle a un desconocido (cara real, factura, garantía, demo con sus datos, no pedir contraseñas) y cuánta confianza tiene hoy la persona.
 5. **Llegada:** cómo llega al primer comprador **en 7 días desde su computadora** y, si hace falta, una sola acción fuera de casa. Respeta las restricciones del paso 1.

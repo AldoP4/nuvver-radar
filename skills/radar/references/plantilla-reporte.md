@@ -41,9 +41,13 @@ Guarda el reporte como `radar-AAAA-MM-DD.md`. Quita las secciones que no aplique
 | Candidato | Ya pagan ×3 | Llegada ×3 | Dolor ×2 | Ahora ×2 | Ajuste ×2 | Velocidad ×2 | Confianza ×1 | Total | Descarte |
 |---|---|---|---|---|---|---|---|---|---|
 
+## Abogado del diablo y pre-mortem
+| Candidato | La razón más fuerte por la que fracasaría | "Pasaron 60 días sin vender: ¿por qué?" |
+|---|---|---|
+
 ## Señales encontradas
-| Señal | Tipo (1–7) | Fuente | Fecha | Tipo de fuente |
-|---|---|---|---|---|
+| Señal | Tipo (1–7) | Fuente | Fecha | Tipo de fuente | Cómo lo supe (leído / resumen / sin verificar) |
+|---|---|---|---|---|---|
 
 ## Lo que no encontré
 [Datos que faltaron y cómo conseguirlos. Esto es parte del resultado, no un error.]
