@@ -2,6 +2,10 @@
 
 [Español](README.md) | **English**
 
+<p align="center">
+  <img src="media/radar-demo.gif" width="720" alt="/radar running in Claude Code: from profile to top 3 opportunities" />
+</p>
+
 **Stop asking AI "what business should I start?" and getting the same answer as everyone else.**
 
 `/radar` is a skill for Claude Code (and other agents) that finds **business opportunities that exist today, for you**, and tells you how to get paid: who buys, why now, what people already pay, how to reach that buyer in 7 days, and how to test it before writing a line of code.

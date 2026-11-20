@@ -3,6 +3,10 @@
 **Español** | [English](README.en.md)
 
 <p align="center">
+  <img src="media/radar-demo.gif" width="720" alt="/radar corriendo en Claude Code: del perfil al top 3 de oportunidades" />
+</p>
+
+<p align="center">
   <a href="https://github.com/AldoP4/radar-oportunidades/actions/workflows/validate.yml"><img src="https://github.com/AldoP4/radar-oportunidades/actions/workflows/validate.yml/badge.svg" alt="validate" /></a>
   <img src="https://img.shields.io/badge/licencia-MIT-green" alt="MIT" />
   <img src="https://img.shields.io/badge/Claude%20Code-skill-orange" alt="Claude Code skill" />
