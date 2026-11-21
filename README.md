@@ -1,4 +1,4 @@
-# /radar
+# Nuvver Radar
 
 **Español** | [English](README.en.md)
 
@@ -7,18 +7,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AldoP4/radar-oportunidades/actions/workflows/validate.yml"><img src="https://github.com/AldoP4/radar-oportunidades/actions/workflows/validate.yml/badge.svg" alt="validate" /></a>
+  <a href="https://github.com/AldoP4/nuvver-radar/actions/workflows/validate.yml"><img src="https://github.com/AldoP4/nuvver-radar/actions/workflows/validate.yml/badge.svg" alt="validate" /></a>
   <img src="https://img.shields.io/badge/licencia-MIT-green" alt="MIT" />
   <img src="https://img.shields.io/badge/Claude%20Code-skill-orange" alt="Claude Code skill" />
 </p>
 
 **Deja de preguntarle a la IA "¿qué negocio pongo?" y que te conteste lo mismo que a todos.**
 
-`/radar` es una skill para Claude Code (y otros agentes) que encuentra **oportunidades de negocio que existen hoy, para ti**, y te dice cómo cobrarlas: quién compra, por qué ahora, cuánto se paga ya, cómo llegas a ese cliente en 7 días y cómo probarlo antes de programar una sola línea.
+**Nuvver Radar** (`/radar`) es una skill para Claude Code (y otros agentes) que encuentra **oportunidades de negocio que existen hoy, para ti**, y te dice cómo cobrarlas: quién compra, por qué ahora, cuánto se paga ya, cómo llegas a ese cliente en 7 días y cómo probarlo antes de programar una sola línea.
 
 ```
-/plugin marketplace add AldoP4/radar-oportunidades
-/plugin install radar@radar-oportunidades
+/plugin marketplace add AldoP4/nuvver-radar
+/plugin install radar@nuvver-radar
 ```
 
 Luego escribe `/radar` (o `/radar:radar` si lo instalaste como plugin), o simplemente pregúntale a Claude *"¿qué puedo vender con lo que sé?"*.
@@ -84,13 +84,13 @@ No es una lista de ideas: es un método armado con lo que la gente que encuentra
 
 **Claude Code (recomendado, se actualiza solo):**
 ```
-/plugin marketplace add AldoP4/radar-oportunidades
-/plugin install radar@radar-oportunidades
+/plugin marketplace add AldoP4/nuvver-radar
+/plugin install radar@nuvver-radar
 ```
 
 **Codex, Cursor, Gemini CLI y otros agentes compatibles con [Agent Skills](https://agentskills.io):**
 ```
-npx skills add AldoP4/radar-oportunidades -g
+npx skills add AldoP4/nuvver-radar -g
 ```
 
 **A mano:** copia la carpeta `skills/radar` a `~/.claude/skills/radar`.
@@ -117,6 +117,6 @@ skills/radar/
 
 ## Quién lo hizo
 
-Lo hice yo, [Aldo Pazzi](https://github.com/AldoP4), desde Puebla, México, con Claude Code. Lo armé porque yo mismo le preguntaba a la IA qué construir y me daba ideas que no podía vender. En [Nuvver](https://nuvver.org) automatizamos negocios con Claude Code; si quieres que te ayudemos a llevar a la realidad una oportunidad que encontró el radar, escríbenos.
+Lo hice yo, [Aldo Pazzi](https://github.com/AldoP4), desde Puebla, México, con Claude Code. Lo armé porque yo mismo le preguntaba a la IA qué construir y me daba ideas que no podía vender. Es hermano de [Cronuvver](https://github.com/AldoP4/cronuvver), que le da a Claude Code noción del tiempo real. En [Nuvver](https://nuvver.org) automatizamos negocios con Claude Code; si quieres que te ayudemos a llevar a la realidad una oportunidad que encontró el radar, escríbenos.
 
 Licencia MIT.

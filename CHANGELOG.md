@@ -1,5 +1,8 @@
 # Cambios
 
+## 0.2.2 (2026-11-20)
+- Nuevo nombre: Nuvver Radar. El repo pasa a `AldoP4/nuvver-radar` y se instala con `/plugin install radar@nuvver-radar`. El comando sigue siendo `/radar`.
+
 ## 0.2.1 (2026-11-20)
 Correcciones de la primera corrida instalada desde GitHub:
 - Una fecha que ya pasó no cuenta como "por qué ahora" (máximo 2 en la rúbrica) y se revisa antes de entregar el top 3.

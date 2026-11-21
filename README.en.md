@@ -1,4 +1,4 @@
-# /radar
+# Nuvver Radar
 
 [Español](README.md) | **English**
 
@@ -8,13 +8,13 @@
 
 **Stop asking AI "what business should I start?" and getting the same answer as everyone else.**
 
-`/radar` is a skill for Claude Code (and other agents) that finds **business opportunities that exist today, for you**, and tells you how to get paid: who buys, why now, what people already pay, how to reach that buyer in 7 days, and how to test it before writing a line of code.
+**Nuvver Radar** (`/radar`) is a skill for Claude Code (and other agents) that finds **business opportunities that exist today, for you**, and tells you how to get paid: who buys, why now, what people already pay, how to reach that buyer in 7 days, and how to test it before writing a line of code.
 
 It was built in Spanish for Latin America, but it works in any language and country: it searches in yours.
 
 ```
-/plugin marketplace add AldoP4/radar-oportunidades
-/plugin install radar@radar-oportunidades
+/plugin marketplace add AldoP4/nuvver-radar
+/plugin install radar@nuvver-radar
 ```
 
 Then type `/radar` (or `/radar:radar` as a plugin), or just ask Claude *"what can I sell with what I know?"*. No keys, accounts or config: it uses your agent's built-in web search.
@@ -36,6 +36,6 @@ You get a `radar-YYYY-MM-DD.md` report and **the one action to take today**. Rea
 
 ## Install
 
-**Claude Code:** the two commands above. **Other [Agent Skills](https://agentskills.io) hosts:** `npx skills add AldoP4/radar-oportunidades -g`. **Manual:** copy `skills/radar` into `~/.claude/skills/radar`.
+**Claude Code:** the two commands above. **Other [Agent Skills](https://agentskills.io) hosts:** `npx skills add AldoP4/nuvver-radar -g`. **Manual:** copy `skills/radar` into `~/.claude/skills/radar`.
 
 Made by [Aldo Pazzi](https://github.com/AldoP4) in Puebla, Mexico, with Claude Code · [Nuvver](https://nuvver.org) · MIT license.
